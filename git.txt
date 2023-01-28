@@ -69,4 +69,6 @@ Fecha de confirmación, relativa
 
 %s
 Asunto
+git commit --amend //olvida + archivo, equivoco mensaje de confirmacion 
+git reset HEAD file //deshacer un archivo preparado 
 
