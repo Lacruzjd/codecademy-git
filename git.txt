@@ -11,3 +11,7 @@ git status -s //muestra resumen
 		A modificado y preparado
 .gitignore // se agregan patrones para ser ignorados
 
+git diff // que has cambiado pero aun no has preparado 
+		que has preparado y esa listo para comfirmar 
+git diff --staged //ver preparado y sera inculido en commit 
+
