@@ -1,0 +1,6 @@
+Comandos git:
+
+git init // inicia el git 
+git add file or , all proyect// agrega archico a stage
+git commit -m 'razon' // confirma los cambios
+
