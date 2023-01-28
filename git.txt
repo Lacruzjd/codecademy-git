@@ -3,6 +3,7 @@ Comandos git:
 git init // inicia el git 
 git add file or , all proyect// agrega archico a stage
 git commit -m 'razon' // confirma los cambios
+git commit -a -m 'abc' //saltar el area de preparacion
 git status //ver estado de los archivos modified
 git status -s //muestra resumen
 		?? no rastreados
