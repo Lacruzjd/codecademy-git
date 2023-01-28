@@ -9,4 +9,5 @@ git status -s //muestra resumen
 		M modificado en DT pero no preparado
 		MM mofidicado, preparado y modificado otra vez 
 		A modificado y preparado
+.gitignore // se agregan patrones para ser ignorados
 
