@@ -18,4 +18,4 @@ git diff --staged //ver preparado y sera inculido en commit
 git rm file // elimina archivos del area de preparacion
 git rm -f // forza eliminacion 
 git rm --cached // elimina solo del area de preparacion git no lo rastreara mas
-
+git mv renamed.md renamed // renombrar archivo
