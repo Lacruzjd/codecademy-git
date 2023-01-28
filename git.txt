@@ -19,3 +19,54 @@ git rm file // elimina archivos del area de preparacion
 git rm -f // forza eliminacion 
 git rm --cached // elimina solo del area de preparacion git no lo rastreara mas
 git mv renamed.md renamed // renombrar archivo
+git log //ver historial de confirmaciones 
+git lot -p //muestra los cambios 
+git log -2 //muesta las dos ultimas confirmaciones 
+git log -stat //muestra estadistica 
+
+git log pretty=oneline //cambia el formato unica linea 
+%H
+Hash de la confirmación
+
+%h
+Hash de la confirmación abreviado
+
+%T
+Hash del árbol
+
+%t
+Hash del árbol abreviado
+
+%P
+Hashes de las confirmaciones padre
+
+%p
+Hashes de las confirmaciones padre abreviados
+
+%an
+Nombre del autor
+
+%ae
+Dirección de correo del autor
+
+%ad
+Fecha de autoría (el formato respeta la opción -–date)
+
+%ar
+Fecha de autoría, relativa
+
+%cn
+Nombre del confirmador
+
+%ce
+Dirección de correo del confirmador
+
+%cd
+Fecha de confirmación
+
+%cr
+Fecha de confirmación, relativa
+
+%s
+Asunto
+
