@@ -81,3 +81,6 @@ git remote -v // muestas  las urls
 git remote add [nombre] [url] //add remote repository
 git fetch [url] //traer y convinar remotos
 git push origin master git push [nombre-remoto] [nombre rama] //enviar a remotos
+git remote show origin // inspecciona remoto 
+git remote rename bp paul // renombra el remote 
+git remote rm paul // elimina remote
