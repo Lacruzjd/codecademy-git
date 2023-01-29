@@ -1,0 +1,12 @@
+#terminados en .a
+*.a
+#pero no lib.a
+!lid.a
+#archivo todo 
+/TODO
+#archivos del directorio build/
+build/
+#doc/*.txt, pero no doc/server/arch.txt
+doc/*txt
+#todos los archivos .txt del directorio doc/
+doc/**/*.txt
