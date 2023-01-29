@@ -72,3 +72,12 @@ Asunto
 git commit --amend //olvida + archivo, equivoco mensaje de confirmacion 
 git reset HEAD file //deshacer un archivo preparado 
 git checkout -- file //descarta cambios en area de trabajo
+
+//remotos
+git clone url //clonar a la pc repositorio remoto
+
+git remote //ver servidor clonado por defecto origin
+git remote -v // muestas  las urls
+git remote add [nombre] [url] //add remote repository
+git fetch [url] //traer y convinar remotos
+git push origin master git push [nombre-remoto] [nombre rama] //enviar a remotos
