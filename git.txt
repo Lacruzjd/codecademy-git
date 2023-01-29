@@ -89,3 +89,4 @@ git remote rm paul // elimina remote
 git branch name // crea una nueva branch
 git log --oneline --decorate // a que rama apunta HEAD
 
+git checkout -b namebranch // atajo para git branch name - git checkout name
