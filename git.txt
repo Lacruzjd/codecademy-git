@@ -95,3 +95,7 @@ git merge namebranch //fusionamos cambios
 git mergetool //erramienta visual para resolver conflictos
 
 
+git branch //ver ramas
+git branch -v //confirmacion de cambios ultimos
+git branch --merged //ver ramas fucionadas
+git branch --no-merged //ver ramas no fucionadas
