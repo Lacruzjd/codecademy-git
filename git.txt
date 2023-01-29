@@ -90,3 +90,8 @@ git branch name // crea una nueva branch
 git log --oneline --decorate // a que rama apunta HEAD
 
 git checkout -b namebranch // atajo para git branch name - git checkout name
+git checkout master //cambiamos a master
+git merge namebranch //fusionamos cambios
+git mergetool //erramienta visual para resolver conflictos
+
+
