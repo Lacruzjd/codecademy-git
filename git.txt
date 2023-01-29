@@ -84,3 +84,8 @@ git push origin master git push [nombre-remoto] [nombre rama] //enviar a remotos
 git remote show origin // inspecciona remoto 
 git remote rename bp paul // renombra el remote 
 git remote rm paul // elimina remote
+
+//branch
+git branch name // crea una nueva branch
+git log --oneline --decorate // a que rama apunta HEAD
+
