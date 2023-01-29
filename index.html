@@ -18,7 +18,22 @@ c0 /--- c1 /--- c2
         git branch iss53 
         git checkout iss53
     </code>
-
+    <pre>
+              master
+                 |
+    c0 /--- c1 /--- c2
+                 |
+               iss53
+    
+    </pre>
+    <pre>
+               master
+                 |
+    c0 /--- c1 /--- c2 /--- c3
+                         |
+                       iss53
+    
+    </pre>
 
     <code>
         git checkout -b hotfix2 //
@@ -35,6 +50,6 @@ c0 /--- c1 /--- c2 /--- c4
     git branch -d hotfix2
     git checkout iss53
 </code>
-
+    <footer>new footer iss53</footer>
 </body>
 </html>
