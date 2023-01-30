@@ -85,7 +85,7 @@ git remote show origin // inspecciona remoto
 git remote rename bp paul // renombra el remote 
 git remote rm paul // elimina remote
 
-//branch
+//branch//
 git branch name // crea una nueva branch
 git log --oneline --decorate // a que rama apunta HEAD
 
@@ -94,10 +94,13 @@ git checkout master //cambiamos a master
 git merge namebranch //fusionamos cambios
 git mergetool //erramienta visual para resolver conflictos
 
-
 git branch //ver ramas
 git branch -v //confirmacion de cambios ultimos
 git branch --merged //ver ramas fucionadas
 git branch --no-merged //ver ramas no fucionadas
+
 //The githugb flow//
+git confit --global user.email "email@email.com"
+git config --global user.name "lacruz"
+git remote add origin [url]
 git push -u origin master
