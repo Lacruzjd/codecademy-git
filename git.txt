@@ -100,3 +100,4 @@ git branch -v //confirmacion de cambios ultimos
 git branch --merged //ver ramas fucionadas
 git branch --no-merged //ver ramas no fucionadas
 //The githugb flow//
+git push -u origin master
